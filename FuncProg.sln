@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncProg", "FuncProg\FuncProg.csproj", "{92DAFFE6-0BDD-4407-B73F-472E4732DC53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuncProg", "FuncProg\FuncProg.csproj", "{92DAFFE6-0BDD-4407-B73F-472E4732DC53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PureFunctions", "PureFunctions\PureFunctions.csproj", "{D4ACADE0-238C-45CF-B283-537BC70CED53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PureFunctions", "PureFunctions\PureFunctions.csproj", "{D4ACADE0-238C-45CF-B283-537BC70CED53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PureFunctions.RefactoringTask", "PureFunctions.RefactoringTask\PureFunctions.RefactoringTask.csproj", "{9537EB7C-19C1-46C8-B9C0-E08BA63ABB24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PureFunctions.RefactoringTask", "PureFunctions.RefactoringTask\PureFunctions.RefactoringTask.csproj", "{9537EB7C-19C1-46C8-B9C0-E08BA63ABB24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Immutables", "Immutables\Immutables.csproj", "{1B43791D-8CB8-4013-8881-D1CCB6CAB923}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Immutables", "Immutables\Immutables.csproj", "{1B43791D-8CB8-4013-8881-D1CCB6CAB923}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TailRecursion", "TailRecursion\TailRecursion.csproj", "{ED5FE9CF-9F53-48A2-B6D4-BB54719200AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TailRecursion", "TailRecursion\TailRecursion.csproj", "{ED5FE9CF-9F53-48A2-B6D4-BB54719200AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Closure", "Closure\Closure.csproj", "{7A02027E-B19A-498D-9E6C-1B4D0BDAEA1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Closure", "Closure\Closure.csproj", "{7A02027E-B19A-498D-9E6C-1B4D0BDAEA1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monad", "Monad\Monad.csproj", "{8440F73D-3EBD-417F-826A-36A4536E6278}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monad", "Monad\Monad.csproj", "{8440F73D-3EBD-417F-826A-36A4536E6278}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Records", "Records\Records.csproj", "{28801177-879C-4476-97D3-3873E523CECF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{8440F73D-3EBD-417F-826A-36A4536E6278}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8440F73D-3EBD-417F-826A-36A4536E6278}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8440F73D-3EBD-417F-826A-36A4536E6278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28801177-879C-4476-97D3-3873E523CECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28801177-879C-4476-97D3-3873E523CECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28801177-879C-4476-97D3-3873E523CECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28801177-879C-4476-97D3-3873E523CECF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

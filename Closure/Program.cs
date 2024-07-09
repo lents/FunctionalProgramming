@@ -15,6 +15,7 @@ class Program
     // Function that returns a closure capturing a variable from its surrounding scope
     static Func<int, int> CreateAdder(int x)
     {
+        
         // The returned lambda expression captures the variable 'x'
         return y => x + y;
     }
