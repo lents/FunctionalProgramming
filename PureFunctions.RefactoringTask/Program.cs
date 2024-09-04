@@ -1,14 +1,14 @@
 ﻿class Program
 {
-     
 
+    public static string greeting = "Hello";
     static void Main(string[] args)
     {
         var john = new Person("John", "Doe");
         Console.WriteLine(Greet(john));
     }
 
-    static string Greet(Person person, string greeting = "Hello")
+    static string Greet(Person person)
     {
         return $"{greeting}, {person?.FirstName} {person?.LastName}";
     }
