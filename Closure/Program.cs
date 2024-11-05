@@ -6,7 +6,7 @@ class Program
     {
         int a = 1;
         int b = 2;
-        void test(int a)
+        void test(int c)
         {
             a = 2;
           

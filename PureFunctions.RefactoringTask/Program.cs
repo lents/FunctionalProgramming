@@ -8,7 +8,7 @@
         Console.WriteLine(Greet(john));
     }
 
-    static string Greet(Person person)
+    static string Greet(Person person, string greeting = "Hello")
     {
         return $"{greeting}, {person?.FirstName} {person?.LastName}";
     }
